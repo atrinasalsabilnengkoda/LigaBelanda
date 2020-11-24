@@ -1,0 +1,13 @@
+.loader{
+    display: block;
+    width: 80px;
+    margin:100px auto;
+}
+
+@media only screen and (min-width: 768px){
+
+    .clubs-items{
+        margin-top:50px;
+    }
+
+}

@@ -1,0 +1,78 @@
+
+
+.card-image{
+    pointer-events: none;
+    display: flex;
+    padding: 10px;
+    align-items: center;
+}
+.card-stacked{
+    pointer-events: none;
+}
+.card-image img{
+    pointer-events: none;
+    object-fit: cover;
+    width: 60px;
+    height: 60px;
+    margin-left: 10px;
+    
+}
+
+.card-content p{
+    pointer-events: none;
+    border-bottom: 1px solid gainsboro;
+    margin-bottom: 5px;
+}
+
+.playedgames{
+    color: black;
+}
+
+.won{
+    color: #43a047;
+    margin-left: 10px;
+}
+
+.draw{
+    color: orange;
+    margin-left: 10px;
+}
+
+.lost{
+    margin-left: 10px;
+    color: red;
+}
+
+.point{
+    margin-left: 10px;
+    color: blue;
+}
+
+.goalsFor{
+    margin-left: 10px;
+    color: blueviolet;
+}
+
+.goalsAgainst{
+    margin-left: 10px;
+    color: chocolate;
+}
+
+.goalDifference{
+    margin-left: 10px;
+    color: yellowgreen;
+}
+
+.loader{
+    display: block;
+    width: 80px;
+    margin:100px auto;
+}
+
+@media only screen and (min-width: 768px){
+
+    .standings-items{
+        margin-top:50px;
+    }
+
+}

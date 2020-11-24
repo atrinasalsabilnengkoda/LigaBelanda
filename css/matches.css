@@ -1,0 +1,30 @@
+.vs{
+    color: black;
+    margin-left: 20px;
+    text-align: center;
+}
+
+.home{
+    margin-left:20px;
+    color: lightskyblue;
+    text-align: right;
+}
+
+.away{
+    color: yellowgreen;
+    text-align: left;
+}
+
+.loader{
+    display: block;
+    width: 80px;
+    margin:100px auto;
+}
+
+@media only screen and (min-width: 768px){
+
+    .matches-items{
+        margin-top:50px;
+    }
+
+}
